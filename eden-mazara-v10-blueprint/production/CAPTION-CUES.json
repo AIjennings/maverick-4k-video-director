@@ -1,0 +1,373 @@
+[
+  {
+    "id": "act1-cue001",
+    "act": 1,
+    "text": "At first, it's the light.",
+    "start": 3.0,
+    "end": 5.24
+  },
+  {
+    "id": "act1-cue002",
+    "act": 1,
+    "text": "Then the ocean air,",
+    "start": 5.56,
+    "end": 7.32
+  },
+  {
+    "id": "act1-cue003",
+    "act": 1,
+    "text": "the coffee, and the feeling that your",
+    "start": 7.36,
+    "end": 9.48
+  },
+  {
+    "id": "act1-cue004",
+    "act": 1,
+    "text": "day belongs to you.",
+    "start": 9.64,
+    "end": 11.4
+  },
+  {
+    "id": "act1-cue005",
+    "act": 1,
+    "text": "You walk outside.",
+    "start": 11.72,
+    "end": 13.04
+  },
+  {
+    "id": "act1-cue006",
+    "act": 1,
+    "text": "Someone knows your name.",
+    "start": 13.32,
+    "end": 14.68
+  },
+  {
+    "id": "act1-cue007",
+    "act": 1,
+    "text": "Around the next table,",
+    "start": 14.92,
+    "end": 16.2
+  },
+  {
+    "id": "act1-cue008",
+    "act": 1,
+    "text": "there's room for one more.",
+    "start": 16.28,
+    "end": 17.76
+  },
+  {
+    "id": "act1-cue009",
+    "act": 1,
+    "text": "Imagine belonging here.",
+    "start": 18.04,
+    "end": 19.96
+  },
+  {
+    "id": "act2-cue010",
+    "act": 2,
+    "text": "Now look at the land behind that",
+    "start": 30.08,
+    "end": 32.0
+  },
+  {
+    "id": "act2-cue011",
+    "act": 2,
+    "text": "feeling. Rising from the hills above Brasilito",
+    "start": 32.08,
+    "end": 35.36
+  },
+  {
+    "id": "act2-cue012",
+    "act": 2,
+    "text": "toward the Pacific,",
+    "start": 35.44,
+    "end": 36.8
+  },
+  {
+    "id": "act2-cue013",
+    "act": 2,
+    "text": "Eden Mazara spans nearly nine hundred and",
+    "start": 36.88,
+    "end": 39.44
+  },
+  {
+    "id": "act2-cue014",
+    "act": 2,
+    "text": "fifty acres on Costa Rica's Gold Coast.",
+    "start": 39.52,
+    "end": 42.56
+  },
+  {
+    "id": "act2-cue015",
+    "act": 2,
+    "text": "Room for homes,",
+    "start": 42.64,
+    "end": 43.84
+  },
+  {
+    "id": "act2-cue016",
+    "act": 2,
+    "text": "gathering places, and wild,",
+    "start": 43.88,
+    "end": 45.92
+  },
+  {
+    "id": "act2-cue017",
+    "act": 2,
+    "text": "open nature between them.",
+    "start": 46.0,
+    "end": 47.84
+  },
+  {
+    "id": "act2-cue018",
+    "act": 2,
+    "text": "A generous vision,",
+    "start": 47.92,
+    "end": 49.28
+  },
+  {
+    "id": "act2-cue019",
+    "act": 2,
+    "text": "grounded in a disciplined",
+    "start": 49.44,
+    "end": 50.72
+  },
+  {
+    "id": "act2-cue020",
+    "act": 2,
+    "text": "nine-million-dollar contracted land basis.",
+    "start": 50.88,
+    "end": 53.798
+  },
+  {
+    "id": "act3-cue021",
+    "act": 3,
+    "text": "Every lasting place begins with people.",
+    "start": 60.08,
+    "end": 63.36
+  },
+  {
+    "id": "act3-cue022",
+    "act": 3,
+    "text": "Shared tables, long lunches,",
+    "start": 63.44,
+    "end": 65.92
+  },
+  {
+    "id": "act3-cue023",
+    "act": 3,
+    "text": "hands in the earth,",
+    "start": 66.08,
+    "end": 67.2
+  },
+  {
+    "id": "act3-cue024",
+    "act": 3,
+    "text": "and stories that bring you closer.",
+    "start": 67.28,
+    "end": 69.84
+  },
+  {
+    "id": "act3-cue025",
+    "act": 3,
+    "text": "That life takes root at El Encanto:",
+    "start": 69.92,
+    "end": 72.56
+  },
+  {
+    "id": "act3-cue026",
+    "act": 3,
+    "text": "the proposed first residential release of forty",
+    "start": 72.64,
+    "end": 75.44
+  },
+  {
+    "id": "act3-cue027",
+    "act": 3,
+    "text": "titled homesites along the coastal ridges.",
+    "start": 75.52,
+    "end": 78.32
+  },
+  {
+    "id": "act3-cue028",
+    "act": 3,
+    "text": "Beyond your door,",
+    "start": 78.52,
+    "end": 79.573
+  },
+  {
+    "id": "act3-cue029",
+    "act": 3,
+    "text": "the sanctuary opens into ocean surf,",
+    "start": 79.627,
+    "end": 82.48
+  },
+  {
+    "id": "act3-cue030",
+    "act": 3,
+    "text": "movement, and restoration.",
+    "start": 82.56,
+    "end": 85.04
+  },
+  {
+    "id": "act3-cue031",
+    "act": 3,
+    "text": "Move. Breathe. Live well, together.",
+    "start": 85.12,
+    "end": 89.6
+  },
+  {
+    "id": "act4-cue032",
+    "act": 4,
+    "text": "And there has to be room to",
+    "start": 95.08,
+    "end": 96.44
+  },
+  {
+    "id": "act4-cue033",
+    "act": 4,
+    "text": "slow down. Quiet mornings,",
+    "start": 96.52,
+    "end": 99.08
+  },
+  {
+    "id": "act4-cue034",
+    "act": 4,
+    "text": "thermal waters, and care for the ground",
+    "start": 99.16,
+    "end": 101.72
+  },
+  {
+    "id": "act4-cue035",
+    "act": 4,
+    "text": "beneath your feet.",
+    "start": 101.8,
+    "end": 103.08
+  },
+  {
+    "id": "act4-cue036",
+    "act": 4,
+    "text": "Because a sanctuary is only as real",
+    "start": 103.16,
+    "end": 105.48
+  },
+  {
+    "id": "act4-cue037",
+    "act": 4,
+    "text": "as what sustains it.",
+    "start": 105.6,
+    "end": 107.16
+  },
+  {
+    "id": "act4-cue038",
+    "act": 4,
+    "text": "Beneath these hills,",
+    "start": 107.24,
+    "end": 108.653
+  },
+  {
+    "id": "act4-cue039",
+    "act": 4,
+    "text": "project materials identify nine production wells,",
+    "start": 108.787,
+    "end": 111.773
+  },
+  {
+    "id": "act4-cue040",
+    "act": 4,
+    "text": "with reported combined flow above fifty liters",
+    "start": 111.827,
+    "end": 114.44
+  },
+  {
+    "id": "act4-cue041",
+    "act": 4,
+    "text": "per second. Real land,",
+    "start": 114.52,
+    "end": 116.52
+  },
+  {
+    "id": "act4-cue042",
+    "act": 4,
+    "text": "real water, advancing through",
+    "start": 116.6,
+    "end": 118.52
+  },
+  {
+    "id": "act4-cue043",
+    "act": 4,
+    "text": "diligence phase by phase.",
+    "start": 118.627,
+    "end": 121.122
+  },
+  {
+    "id": "act5-cue044",
+    "act": 5,
+    "text": "Then the afternoon turns to gold.",
+    "start": 125.08,
+    "end": 127.88
+  },
+  {
+    "id": "act5-cue045",
+    "act": 5,
+    "text": "From the surf at Witch's Rock to",
+    "start": 127.96,
+    "end": 129.64
+  },
+  {
+    "id": "act5-cue046",
+    "act": 5,
+    "text": "a hundred and eighty meters of beachfront",
+    "start": 129.72,
+    "end": 131.88
+  },
+  {
+    "id": "act5-cue047",
+    "act": 5,
+    "text": "concession at Playa Brasilito,",
+    "start": 132.0,
+    "end": 134.2
+  },
+  {
+    "id": "act5-cue048",
+    "act": 5,
+    "text": "you find your people by the water.",
+    "start": 134.28,
+    "end": 136.6
+  },
+  {
+    "id": "act5-cue049",
+    "act": 5,
+    "text": "And the question changes:",
+    "start": 136.737,
+    "end": 138.52
+  },
+  {
+    "id": "act5-cue050",
+    "act": 5,
+    "text": "Could I belong here?",
+    "start": 138.6,
+    "end": 140.04
+  },
+  {
+    "id": "act5-cue051",
+    "act": 5,
+    "text": "Could I help build this?",
+    "start": 140.12,
+    "end": 141.88
+  },
+  {
+    "id": "act5-cue052",
+    "act": 5,
+    "text": "Eden Mazara invites aligned acquisition and development",
+    "start": 141.96,
+    "end": 145.16
+  },
+  {
+    "id": "act5-cue053",
+    "act": 5,
+    "text": "partners to shape what comes next.",
+    "start": 145.44,
+    "end": 147.518
+  }
+]

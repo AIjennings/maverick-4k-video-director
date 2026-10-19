@@ -1,0 +1,3 @@
+# flow-cli dependencies
+# Only Python standard library required (Python 3.10+)
+# System requirements: ffmpeg, ffprobe on PATH

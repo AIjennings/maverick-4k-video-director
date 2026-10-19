@@ -1,0 +1,386 @@
+{
+  "generated_at": "2026-10-18T06:11:00Z",
+  "contact_sheet": "production/new-pickups-contact-sheet.jpg",
+  "summary": {
+    "total_flow_pickups_inspected": 16,
+    "total_site_photos_inspected": 4,
+    "all_clips_resolution": "1280x720",
+    "all_clips_fps": 24,
+    "all_clips_duration_sec": 8.0,
+    "regional_coherence_pass_count": 16,
+    "notes": "All 16 clips pass Guanacaste regional coherence (dry-tropical coastal ridges, golden sand bays, organic plaster/teak/stone architecture, zero conifers/snow/rainforest waterfalls). Note that pickup-feet-beach-path-01.mp4 contains an internal dissolve around 2.3s-3.1s between two distinct shots (bare feet on leaf trail -> wide ocean waves on cove shore)."
+  },
+  "flow_pickups": [
+    {
+      "id": "pickup-architects-model-01",
+      "file": "assets/flow/pickup-architects-model-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Guanacaste dry-forest coastal ridge overlooking turquoise bay at golden hour",
+      "ai_quality": "HIGH — clean human motion; female and male architects in white linen examine tabletop architectural scale model of circular wood pavilions, then turn and gesture toward the real bay below",
+      "visual_description": "Two architects/developers standing outdoors on an elevated coastal ridge overlooking a Pacific bay, inspecting a detailed wooden architectural scale model of organic circular pavilions before turning to point out toward the coastline.",
+      "best_source_start": 0.5,
+      "usable_window": [0.0, 7.2],
+      "secondary_window": {
+        "source_start": 3.5,
+        "usable_window": [3.5, 7.2],
+        "note": "Architects turning and pointing directly out over the bay"
+      },
+      "recommended_story_placement": {
+        "chapter": "vision",
+        "act": "Act II (Masterplan & Vision, ~35s-58s) or Act V (Partner Invitation, ~133s-145s)",
+        "rationale": "Strongest literal visual for master-planning, architectural discipline, and translating site topography into built vision."
+      }
+    },
+    {
+      "id": "pickup-family-gathering-01",
+      "file": "assets/flow/pickup-family-gathering-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Sunlit Guanacaste dry-forest grove with rustic teak dining table and tropical fruit",
+      "ai_quality": "HIGH — warm, natural multi-generational embrace across outdoor table; golden-hour backlight through deciduous tropical trees",
+      "visual_description": "Multi-generational family and friends in linen gathering around a long outdoor wooden table under warm golden-hour canopy light, leaning in to embrace warmly over a spread of tropical fruit.",
+      "best_source_start": 0.8,
+      "usable_window": [0.0, 7.6],
+      "recommended_story_placement": {
+        "chapter": "community",
+        "act": "Act IV (Community, Table & Belonging, ~86s-115s)",
+        "rationale": "Warm emotional arrival and communal table embrace that anchors multi-generational belonging."
+      }
+    },
+    {
+      "id": "pickup-family-beach-01",
+      "file": "assets/flow/pickup-family-beach-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Golden-sand Pacific cove beach with dry-forest headland at sunset",
+      "ai_quality": "HIGH — verified at 1s intervals (0.5s-7.5s): father in white linen and mother in yellow sundress walk hand-in-hand along shoreline while young child in red shorts runs joyfully ahead into the shallow surf",
+      "visual_description": "Parents walking hand-in-hand along a sunlit Guanacaste beach at golden hour while their young child runs playfully into the gentle shoreline waves.",
+      "best_source_start": 0.5,
+      "usable_window": [0.0, 7.8],
+      "secondary_window": {
+        "source_start": 4.2,
+        "usable_window": [4.2, 7.8],
+        "note": "Child splashing into shallow golden-hour surf while parents walk behind"
+      },
+      "recommended_story_placement": {
+        "chapter": "community",
+        "act": "Act I (Arrival/Belonging, ~18s-26s) or Act IV/V (Generational Legacy, ~105s-138s)",
+        "rationale": "Delivers genuine family warmth and multi-generational coastal lifestyle."
+      }
+    },
+    {
+      "id": "pickup-feet-beach-path-01",
+      "file": "assets/flow/pickup-feet-beach-path-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS_WITH_INTERNAL_TRANSITION — internal cross-dissolve between 2.2s and 3.2s",
+      "regional_coherence": "PASS — Sunlit dry-forest leaf trail (0.0s-2.1s) and Pacific cove waves with dry-forest headland (3.3s-8.0s)",
+      "ai_quality": "HIGH within each sub-window (avoid cutting across 2.1s-3.2s dissolve)",
+      "visual_description": "Two-part clip: (A) 0.0s-2.1s low-angle close-up of bare feet walking along a golden sunlit leaf-strewn coastal path; (B) 3.3s-8.0s wide view of gentle turquoise waves rolling onto a sandy cove beach.",
+      "best_source_start": 0.2,
+      "usable_window": [0.0, 2.0],
+      "secondary_window": {
+        "source_start": 3.4,
+        "usable_window": [3.3, 8.0],
+        "note": "Clean wide ocean waves rolling onto cove beach"
+      },
+      "recommended_story_placement": {
+        "chapter": "place",
+        "act": "Act I (Sensory Grounding, ~6s-10s) for Window A (0.2s-2.0s) or Coastal Breathing Beat for Window B (3.4s-7.8s)",
+        "rationale": "Window A is an ideal 1.4s-1.8s tactile grounding beat; Window B is a clean daytime Pacific surf cutaway."
+      }
+    },
+    {
+      "id": "pickup-guide-trail-01",
+      "file": "assets/flow/pickup-guide-trail-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Guanacaste dry-forest coastal trail overlooking the bay",
+      "ai_quality": "HIGH — natural handshake between guide and arriving couple (0.0s-4.2s), then all three turn to walk down the coastal trail together (4.5s-8.0s)",
+      "visual_description": "A local guide in khaki shirt warmly welcomes an arriving couple with a handshake on a sunlit dry-forest ridge trail, then leads them down the path toward the ocean overlook.",
+      "best_source_start": 0.5,
+      "usable_window": [0.0, 7.8],
+      "secondary_window": {
+        "source_start": 4.6,
+        "usable_window": [4.6, 7.8],
+        "note": "Guide and couple walking away together down the coastal trail toward the bay"
+      },
+      "recommended_story_placement": {
+        "chapter": "place",
+        "act": "Act I (Human Arrival & Welcome, ~18s-25s) or Act II (Guided Site Tour, ~40s-50s)",
+        "rationale": "Grounds hospitality, stewardship, and guided site discovery."
+      }
+    },
+    {
+      "id": "pickup-people-ridge-01",
+      "file": "assets/flow/pickup-people-ridge-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Guanacaste coastal bluff, dry-tropical canopy and palms against pink-gold Pacific sunset",
+      "ai_quality": "GOOD — fast aerial pullback; figures on the ridge are clearest in 0.0s-3.0s, while 3.5s-8.0s becomes a dramatic wide sunset aerial over the headland canopy",
+      "visual_description": "Dramatic sunset drone pullback starting near a group standing on a grassy coastal bluff and flying backward high over the dry-forest canopy with the sun setting into the Pacific.",
+      "best_source_start": 3.5,
+      "usable_window": [3.5, 8.0],
+      "secondary_window": {
+        "source_start": 0.3,
+        "usable_window": [0.0, 3.0],
+        "note": "Close-to-medium aerial pullback from people gathered on the sunset ridge"
+      },
+      "recommended_story_placement": {
+        "chapter": "invitation",
+        "act": "Act V (Closing Horizon / Sunset Scale, ~136s-150s)",
+        "rationale": "Epic sunset pullback that connects human presence on the ridge to the vast coastal sanctuary."
+      }
+    },
+    {
+      "id": "pickup-surveyors-01",
+      "file": "assets/flow/pickup-surveyors-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Undeveloped Guanacaste dry-forest hills and turquoise Pacific bay",
+      "ai_quality": "HIGH — crisp total-station surveying tripod, realistic wardrobe and body language as lead engineer points across the coastal ridge",
+      "visual_description": "Two site surveyors/engineers working with a yellow surveying tripod on a sunlit coastal hill overlooking the Pacific bay, gesturing across the undeveloped acreage.",
+      "best_source_start": 1.0,
+      "usable_window": [0.0, 7.5],
+      "recommended_story_placement": {
+        "chapter": "vision",
+        "act": "Act II (Land Diligence, Acreage & Entitlements, ~36s-55s)",
+        "rationale": "Provides concrete investor credibility — real land diligence, surveying, and site readiness prior to vertical build."
+      }
+    },
+    {
+      "id": "pickup-women-waves-01",
+      "file": "assets/flow/pickup-women-waves-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Elevated coastal bluff framed by dry-forest branches overlooking a crescent Pacific cove",
+      "ai_quality": "HIGH — natural facial expressions, warm morning light, zero hand/cup artifacts",
+      "visual_description": "Two women in white linen sitting peacefully on a coastal bluff with morning tea/coffee mugs, sharing a warm smile before looking out over the turquoise cove waves below.",
+      "best_source_start": 1.0,
+      "usable_window": [0.0, 7.6],
+      "recommended_story_placement": {
+        "chapter": "rhythm",
+        "act": "Act I (Morning Pause, ~9s-16s) or Act III/IV (Quiet Connection, ~75s-95s)",
+        "rationale": "Intimate, unhurried human connection with the ocean panorama in the background."
+      }
+    },
+    {
+      "id": "pickup-horseback-01",
+      "file": "assets/flow/pickup-horseback-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Guanacaste coastal bluff trail with organic thatch/stone villas and golden sunflare over the Pacific",
+      "ai_quality": "HIGH — smooth equine gait, warm rim lighting, cohesive coastal topography",
+      "visual_description": "A couple riding horses along a golden-hour coastal bluff trail past organic stone-and-thatch hillside villas with the Pacific Ocean shimmering below.",
+      "best_source_start": 0.8,
+      "usable_window": [0.0, 7.6],
+      "recommended_story_placement": {
+        "chapter": "rhythm",
+        "act": "Act III (Movement & Exploration, ~60s-78s)",
+        "rationale": "Iconic Guanacaste equestrian trail lifestyle linking the ridge villas to the ocean."
+      }
+    },
+    {
+      "id": "pickup-paddleboard-01",
+      "file": "assets/flow/pickup-paddleboard-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Calm turquoise cove water backed by dry-tropical hillside and organic timber villas",
+      "ai_quality": "HIGH — clean water physics, smooth paddle stroke, steady lateral camera glide",
+      "visual_description": "A woman stand-up paddleboarding across calm emerald-turquoise bay water in front of hillside organic eco-villas nestled into the coastal ridge.",
+      "best_source_start": 0.5,
+      "usable_window": [0.0, 7.8],
+      "recommended_story_placement": {
+        "chapter": "rhythm",
+        "act": "Act III (Ocean Movement & Vitality, ~58s-75s)",
+        "rationale": "Showcases calm bay water recreation with the coastal villa enclave visible in the background."
+      }
+    },
+    {
+      "id": "pickup-slicing-fruit-01",
+      "file": "assets/flow/pickup-slicing-fruit-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Outdoor stone kitchen counter with papaya, pineapple, limes, and curved white organic plaster architecture",
+      "ai_quality": "HIGH in 2.8s-7.8s — in 0.0s-2.2s the knife finishes cutting a pre-split papaya; from 2.8s-7.8s the hands cleanly open and present the two fresh papaya halves",
+      "visual_description": "Close-up of hands opening a freshly sliced ripe papaya on a stone outdoor counter surrounded by tropical fruit in front of curved organic villa architecture.",
+      "best_source_start": 3.0,
+      "usable_window": [2.8, 7.8],
+      "recommended_story_placement": {
+        "chapter": "community",
+        "act": "Act I (Savor, ~9s-12s) or Act IV (Harvest & Nourish / Farm-to-Table, ~88s-102s)",
+        "rationale": "Rich tactile farm-to-table nourishment shot with unmistakable tropical authenticity."
+      }
+    },
+    {
+      "id": "pickup-thermal-pool-01",
+      "file": "assets/flow/pickup-thermal-pool-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Natural boulder thermal pool under open timber pavilion surrounded by tropical trees (no snow or alpine conifers)",
+      "ai_quality": "HIGH — gentle steam rising off rippling emerald water, slow serene camera push-in",
+      "visual_description": "Slow push-in across a tranquil natural stone thermal soaking pool under an open timber wellness pavilion surrounded by sunlit tropical forest.",
+      "best_source_start": 0.5,
+      "usable_window": [0.0, 7.8],
+      "recommended_story_placement": {
+        "chapter": "rhythm",
+        "act": "Act III (Wellness, Restore & Sanctuary, ~68s-85s)",
+        "rationale": "Regionally coherent tropical wellness soaking pool that reinforces the restorative sanctuary pillar."
+      }
+    },
+    {
+      "id": "pickup-drone-bay-01",
+      "file": "assets/flow/pickup-drone-bay-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Authentic Guanacaste crescent bay, turquoise Pacific water, golden sand beach, and dry-forest hills",
+      "ai_quality": "VERY HIGH — cinema-grade aerial glide with zero artifacts",
+      "visual_description": "High-altitude aerial drone shot gliding over a pristine crescent bay with deep turquoise water, white surf line, golden beach, and undeveloped Guanacaste coastal hills.",
+      "best_source_start": 0.0,
+      "usable_window": [0.0, 8.0],
+      "recommended_story_placement": {
+        "chapter": "place",
+        "act": "Act I (Coastal Arrival, ~1.5s-5s) or Act II (Regional Scale & Location, ~30s-55s)",
+        "rationale": "Cleanest wide daytime aerial establishing the exact Guanacaste bay and headland geography."
+      }
+    },
+    {
+      "id": "pickup-drone-ridge-01",
+      "file": "assets/flow/pickup-drone-ridge-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Rolling Guanacaste dry-forest ridges and valleys meeting the Pacific Ocean at golden hour",
+      "ai_quality": "VERY HIGH — smooth forward aerial glide bathed in warm golden light",
+      "visual_description": "Sweeping golden-hour aerial drone shot gliding over forested Guanacaste mountain ridges toward the shimmering Pacific horizon.",
+      "best_source_start": 0.0,
+      "usable_window": [0.0, 8.0],
+      "recommended_story_placement": {
+        "chapter": "vision",
+        "act": "Act I (Place, ~2s-6s) or Act II (Ridge Sanctuary Elevation, ~35s-55s)",
+        "rationale": "Captures the elevated ridge-to-ocean topography central to Eden Mazara's masterplan."
+      }
+    },
+    {
+      "id": "pickup-silhouettes-beach-01",
+      "file": "assets/flow/pickup-silhouettes-beach-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Pacific cove beach at dusk with dark headland silhouette and warm pink-gold sky reflections on wet sand",
+      "ai_quality": "VERY HIGH — serene water lapping wet sand at twilight",
+      "visual_description": "Tranquil twilight coastal shot of gentle waves washing across wet reflective sand with dark Guanacaste headland silhouettes against a rose-gold sunset sky.",
+      "best_source_start": 0.0,
+      "usable_window": [0.0, 8.0],
+      "recommended_story_placement": {
+        "chapter": "invitation",
+        "act": "Act IV/V Transition (Evening Calm, ~110s-125s) or Act V (Closing Shore, ~142s-150s)",
+        "rationale": "Poetic dusk shoreline mood ideal for evening reflection or final title card background."
+      }
+    },
+    {
+      "id": "pickup-ocean-glide-01",
+      "file": "assets/flow/pickup-ocean-glide-01.mp4",
+      "duration": 8.0,
+      "resolution": "1280x720",
+      "fps": 24,
+      "nb_frames": 192,
+      "frame_integrity": "PASS",
+      "regional_coherence": "PASS — Open-air teak and stone luxury villa infinity terrace overlooking Guanacaste dry-forest canopy and Pacific Ocean sunset",
+      "ai_quality": "VERY HIGH — seamless architectural camera push from shaded timber deck past infinity pool edge into the coastal panorama",
+      "visual_description": "Smooth camera glide moving through an open-air timber-and-stone hillside villa terrace, passing the infinity pool edge to reveal a sweeping golden-hour view over the forest canopy to the Pacific Ocean.",
+      "best_source_start": 0.6,
+      "usable_window": [0.0, 8.0],
+      "secondary_window": {
+        "source_start": 3.2,
+        "usable_window": [3.2, 8.0],
+        "note": "Camera clears the villa column to reveal the full infinity pool and ocean horizon"
+      },
+      "recommended_story_placement": {
+        "chapter": "place",
+        "act": "Act I (Architectural Reveal, ~4s-8s or ~13s-18s) or Act II (Villa Release Showcase, ~45s-60s)",
+        "rationale": "Signature luxury real-estate reveal linking organic ridge architecture directly to the ocean view."
+      }
+    }
+  ],
+  "site_photos": [
+    {
+      "id": "site-beach-club-frontage",
+      "file": "assets/source/site-beach-club-frontage.jpg",
+      "resolution": "1024x575",
+      "visual_description": "Real daytime wide drone photograph taken from the high hilltop ridge looking across the Guanacaste valley out to the Pacific Ocean bay under a bright blue sky (note: despite the filename 'site-beach-club-frontage.jpg', the image content is the unannotated high ridge-to-ocean panorama).",
+      "has_baked_text": false,
+      "recommended_story_placement": "Act I/II — Real Site Truth establishing panorama (ridge elevation looking out to the Pacific bay; cleanest unannotated real site photo)."
+    },
+    {
+      "id": "site-coastal-panorama",
+      "file": "assets/source/site-coastal-panorama.jpg",
+      "resolution": "1024x604",
+      "visual_description": "Real oblique drone photograph of a flat roadside parcel annotated with '2130 m2' in yellow/black text along the coastal road with neighboring buildings.",
+      "has_baked_text": true,
+      "baked_text_note": "Contains '2130 m2' label on the parcel and a bottom-left Google watermark icon.",
+      "recommended_story_placement": "Act II — Commercial / Beach Club / Roadside parcel diligence cut (use only where parcel metric annotation '2130 m2' is desired)."
+    },
+    {
+      "id": "site-ridge-view",
+      "file": "assets/source/site-ridge-view.jpg",
+      "resolution": "1024x604",
+      "visual_description": "Real high-angle oblique drone map photo annotated with '794 m2', 'Matapalo and Playa Grande', and 'Huacas' directional labels at the road corridor.",
+      "has_baked_text": true,
+      "baked_text_note": "Contains baked text labels: '794 m2', 'Matapalo and Playa Grande', 'Huacas'.",
+      "recommended_story_placement": "Act II — Location & corridor connectivity proof (Matapalo / Playa Grande / Huacas nexus)."
+    },
+    {
+      "id": "villas-el-encanto-release-1",
+      "file": "assets/source/villas-el-encanto-release-1.png",
+      "resolution": "1411x853",
+      "visual_description": "Google Earth satellite overview annotated with 'Villas el Encanto (Release 1)' and 'Playa Grande Costa Rica' pin showing the parcel boundary and road network.",
+      "has_baked_text": true,
+      "baked_text_note": "Google Earth UI pin labels: 'Villas el Encanto (Release 1)' and 'Playa Grande Costa Rica'.",
+      "recommended_story_placement": "Act II — Release 1 parcel locus & regional proximity graphic."
+    }
+  ]
+}

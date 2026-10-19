@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "directory": "./maverick-4k-video-director",
+  "files_scanned": 26,
+  "has_license": true,
+  "has_env_example": true,
+  "has_readme": true,
+  "violations_count": 0,
+  "violations": []
+}
