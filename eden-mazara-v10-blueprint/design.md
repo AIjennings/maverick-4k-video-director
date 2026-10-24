@@ -1,0 +1,2 @@
+# Design
+Website-derived warm ivory #f4efe4, deep forest #142c25, gold #d9be84. Cormorant Garamond display / Montserrat sans. Experience-led commercial footage; restrained lower-third financial labels. 150s sameapprovedfivechapters. No pine/temperateforest shots. AllFlowimagerylabelledillustrativeconcept; actualwebsitephotosidentified. No healthclaims or investmentguarantees. Omitconflictinglotrevenueprojections.
