@@ -117,6 +117,7 @@ python cli/maverick.py ship
 | `qa/verify_commercial_v7.py` | 10-module opaque-box verification suite (`ffprobe` bounds, SHA-256 uniqueness, WCAG AA contrast, timeline math) |
 | `skills/maverick-video-director/SKILL.md` | Agent skill definition for Claude Code, Codex, Hermes, and Google Antigravity |
 | `skills/flow-cli/SKILL.md` | Companion skill for browser-bridged Google Flow automation & NTFS hardlink hygiene |
+| `skills/audio-clash-distortion-guard/SKILL.md` | Pre-delivery audio QA gate (`verify_audio_mix.py`), 808 Beat-Drop spectral scanner (`scan_beat_drop.py`), Lip-Sync-Locked ElevenLabs Speech-to-Speech (`eleven_multilingual_sts_v2`), and 5-stage Studio Vocal-to-Beat Glue Chain |
 
 ---
 
