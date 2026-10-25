@@ -17,26 +17,26 @@ Instead of dragging clips by hand in timeline editors or accepting repetitive, l
 
 ## One-Command Quickstart (`maverick`)
 
-Run from anywhere using `./workspace\flow-cli\maverick.cmd` (or `python ./workspace\flow-cli\maverick.py`):
+Run from anywhere using `D:\AI\HyperFramesVideos\flow-cli\maverick.cmd` (or `python D:\AI\HyperFramesVideos\flow-cli\maverick.py`):
 
 ```powershell
 # 1. Check WebBridge daemon, Google Flow session, Studio (:3003), and scratch disk
-python ./workspace\flow-cli\maverick.py status
+python D:\AI\HyperFramesVideos\flow-cli\maverick.py status
 
 # 2. Harvest Veo 3.1 clips from Google Flow + enforce NTFS hardlink deduplication
-python ./workspace\flow-cli\maverick.py harvest
+python D:\AI\HyperFramesVideos\flow-cli\maverick.py harvest
 
 # 3. Compile deterministic A/B dual-track optical cross-dissolve HTML compositions
-python ./workspace\flow-cli\maverick.py compile
+python D:\AI\HyperFramesVideos\flow-cli\maverick.py compile
 
 # 4. Run the 10-module automated QA & WCAG AA contrast verification suite
-python ./workspace\flow-cli\maverick.py verify
+python D:\AI\HyperFramesVideos\flow-cli\maverick.py verify
 
 # 5. Stream-render native 3840x2160 (4K UHD) 30fps master MP4
-python ./workspace\flow-cli\maverick.py render-4k
+python D:\AI\HyperFramesVideos\flow-cli\maverick.py render-4k
 
 # 6. Or run Compile -> Verify -> Render 4K end-to-end in ONE command:
-python ./workspace\flow-cli\maverick.py ship
+python D:\AI\HyperFramesVideos\flow-cli\maverick.py ship
 ```
 
 ---
@@ -49,9 +49,10 @@ python ./workspace\flow-cli\maverick.py ship
 - **Real Action + Generative Synthesis**: Blends authentic high-resolution regional action & DJI drone footage (e.g., real slow-motion golden-hour surfing at Witch's Rock *Roca Bruja* and 950-acre property aerials) with generative Veo 3.1 shots.
 - **NTFS Hardlink Deduplication (`os.link`)**: Every asset is fingerprinted via SHA-256 and linked across project directories with zero duplicate multi-hundred-MB files on disk.
 
-### Stage 2: ElevenLabs `eleven_v4` Narration & 24-Point Spectral Carve
-- **Character-Aligned Voice Synthesis**: Generates expressive, conviction-driven narration per chapter (`ACT-01` through `ACT-05`) and extracts exact word/character timestamps into `CAPTION-CUES.json`.
-- **24-Point Spectral Audio Ducking**: Automatically carves the music bed (`-9 dB` + mid-frequency EQ dip during spoken investor claims) and swells `+4 dB` into instrumental drops and golden-hour montages.
+### Stage 2: ElevenLabs `eleven_v4` / `eleven_multilingual_sts_v2` Narration, Studio Glue & Audio Clash Guard
+- **Character-Aligned Voice Synthesis & Speech-to-Speech (`eleven_multilingual_sts_v2`)**: Generates expressive narration per chapter (`ACT-01` through `ACT-05`) or upgrades lip-synced stems via `/v1/speech-to-speech/{voice_id}` (`stability=0.38, style=0.62`) so mouth synchronization stays 100% locked while upgrading vocal emotion.
+- **Beat-Drop 808 Spectral Scanner (`scan_beat_drop.py`)**: Scans `35–120 Hz` sub-bass energy to find the exact timestamp where an instrumental's 808 + Drum Drop hits (never assuming `0:00`).
+- **Studio Vocal-to-Beat Glue Chain (`audio-clash-distortion-guard`)**: Glues vocals into the beat using complementary `2.4 kHz` pocket EQ (`-1.8 dB`), `28ms/56ms` subtle room slap (`aecho=0.85:0.88:28|56:0.12|0.07,extrastereo=m=1.16`), `1.85:1` pocket sidechain ducking, and a shared `2.0:1` SSL-style Master Bus Glue Compressor (`acompressor=threshold=-14dB:ratio=2.0:attack=25:release=140:makeup=1.12`) verified through `verify_audio_mix.py`.
 
 ### Stage 3: Deterministic A/B Dual-Track Optical Compiler (`build_v10_masterpiece.py`)
 - **Zero-Duplicate Invariant**: Enforces `135 cuts = 135 unique SHA-256 media files` (`max_usage_per_source = 1`) and `0` forbidden cartoon/CGI/watermarked assets.
@@ -72,4 +73,4 @@ Validates 10 strict engineering gates before any 4K render begins:
 10. Live HyperFrames Studio preview server readiness (`http://localhost:3003`)
 
 ### Stage 5: High-Throughput 4K UHD Parallel Stream Render (`render-4k`)
-- Routes Chromium/FFmpeg capture buffers to high-capacity scratch storage (`TEMP=./workspace\.hf-temp`) with `HF_CAPTURE_PARALLEL_STREAM=true` so 4,500+ native `3840x2160` frames pipe directly into H.264/NVENC without filling `C:`.
+- Routes Chromium/FFmpeg capture buffers to high-capacity scratch storage (`TEMP=D:\AI\HyperFramesVideos\.hf-temp`) with `HF_CAPTURE_PARALLEL_STREAM=true` so 4,500+ native `3840x2160` frames pipe directly into H.264/NVENC without filling `C:`.

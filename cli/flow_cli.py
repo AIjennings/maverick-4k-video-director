@@ -29,9 +29,9 @@ from typing import Dict, Any, List, Optional, Tuple
 
 DEFAULT_DAEMON_URL = "http://127.0.0.1:10086"
 DEFAULT_SESSION = "flow-cli"
-DEFAULT_PROJECT_ID = "00000000-0000-0000-0000-flowproject01"
-DEFAULT_OUTPUT_DIR = r"./workspace\eden-mazara-commercial\assets\flow"
-DEFAULT_WORKSPACE_ROOT = r"./workspace"
+DEFAULT_PROJECT_ID = "822a69b4-c7f8-496b-b920-8344f78dfe69"
+DEFAULT_OUTPUT_DIR = r"D:\AI\HyperFramesVideos\eden-mazara-commercial\assets\flow"
+DEFAULT_WORKSPACE_ROOT = r"D:\AI\HyperFramesVideos"
 
 
 class WebBridgeClient:
@@ -81,7 +81,10 @@ class WebBridgeClient:
         for t in flow_tabs:
             if f"/project/{project_id}" in t.get("url", ""):
                 return t
-        return None
+        for t in flow_tabs:
+            if "/project/" in t.get("url", "") and "/tool/" not in t.get("url", ""):
+                return t
+        return flow_tabs[0] if flow_tabs else None
 
     def attach_tab(self, tab_id: int) -> bool:
         res = self.execute("attach_tab", {"tabId": tab_id})
@@ -154,7 +157,7 @@ def cmd_status(client: WebBridgeClient, args: argparse.Namespace) -> Dict[str, A
         const promptEl = document.querySelector('div.ProseMirror[aria-label*="What do you want to create"], div.ProseMirror');
         const genBtn = document.querySelector('button.generate-icon-button, button[aria-label*="generation"], button[aria-label*="Generate"]');
         
-        let userEmail = 'director@yourdomain.com';
+        let userEmail = 'andrewjennings1995@gmail.com';
         if (userEl) {
             const label = userEl.getAttribute('aria-label') || '';
             const m = label.match(/\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b/);
@@ -180,7 +183,7 @@ def cmd_status(client: WebBridgeClient, args: argparse.Namespace) -> Dict[str, A
             "daemon_running": True,
             "daemon_url": client.daemon_url,
             "authenticated": True,
-            "user": val.get("user", "director@yourdomain.com"),
+            "user": val.get("user", "andrewjennings1995@gmail.com"),
             "tier": val.get("tier", "ULTRA"),
             "project_id": args.project_id,
             "project_title": "Eden Mazara \u2014 Regional Experience Pickups",
@@ -232,31 +235,31 @@ def cmd_tools(client: WebBridgeClient, args: argparse.Namespace) -> Dict[str, An
     """Inspect custom Flow Tools (Surface, GeoVisualizer, Shot Explorer), handle iframe #f1 & mode=EDIT."""
     known_tools = [
         {
-            "id": "00000000-0000-0000-0000-shotexplorer",
+            "id": "209fb82a-aa73-464e-bb68-f306cc76198b",
             "title": "Remix of Shot Explorer (Beat Matched Cutter)",
             "description": "Multi-angle camera variations and 30 beat-matched shots generated from anchor image via Nano Banana 2.1.",
             "mode": "EDIT",
             "sdk_features": ["media.select", "generate.text", "generate.image", "generate.video", "download"],
             "model": "Nano Banana 2.1",
-            "url": f"https://flow.google.com/u/1/project/{args.project_id}/tool/00000000-0000-0000-0000-shotexplorer?mode=EDIT&fromViewSource=tools"
+            "url": f"https://flow.google.com/u/1/project/{args.project_id}/tool/209fb82a-aa73-464e-bb68-f306cc76198b?mode=EDIT&fromViewSource=tools"
         },
         {
-            "id": "community-00000000-0000-0000-0000-surfacetool1",
+            "id": "community-489515b8-4861-4041-8cde-e4d9920da54d",
             "title": "Surface (Creative Material Lab)",
             "description": "Defines tropical/luxury materials (Guanacaste teak, volcanic stone, organic lime plaster, infinity water) and designs luxury villa & sanctuary scenes.",
             "mode": "view",
             "sdk_features": ["media.select", "generate.text", "generate.image", "download"],
             "model": "Omni Flash",
-            "url": f"https://flow.google.com/u/1/project/{args.project_id}/tool/community-00000000-0000-0000-0000-surfacetool1?fromViewSource=tools"
+            "url": f"https://flow.google.com/u/1/project/{args.project_id}/tool/community-489515b8-4861-4041-8cde-e4d9920da54d?fromViewSource=tools"
         },
         {
-            "id": "00000000-0000-0000-0000-geovisualizr",
+            "id": "98fec318-14db-42d3-b8b8-608844bdbbf0",
             "title": "Remix of GeoVisualizer",
             "description": "Visualizes 3D coastal geography and satellite-to-drone orbit visualization using pigeon-maps and Omni 1.1 Flash.",
             "mode": "EDIT",
             "sdk_features": ["media.select", "generate.text", "generate.video", "download"],
             "model": "Omni Flash / Omni 1.1 Flash",
-            "url": f"https://flow.google.com/u/1/project/{args.project_id}/tool/00000000-0000-0000-0000-geovisualizr?mode=EDIT"
+            "url": f"https://flow.google.com/u/1/project/{args.project_id}/tool/98fec318-14db-42d3-b8b8-608844bdbbf0?mode=EDIT"
         },
         {
             "id": "text-effect-builtin",
@@ -516,18 +519,36 @@ def cmd_harvest(client: WebBridgeClient, args: argparse.Namespace) -> Dict[str, 
                 except Exception:
                     pass
 
-    # 1. Discover signed CDN URLs across all open Flow tabs
+    # 1. Discover signed CDN URLs across all open Flow tabs (auto-trigger hover on video thumbnails first)
     flow_tabs = client.find_flow_tabs()
     cdn_urls = []
+    unlock_code = """(() => {
+        const imgs = Array.from(document.querySelectorAll('img')).filter(el => (el.src || '').includes('flow-content.google/image/'));
+        for (const img of imgs) {
+            for (const evType of ['pointerenter', 'mouseenter', 'mouseover', 'mousedown', 'click']) {
+                img.dispatchEvent(new MouseEvent(evType, {bubbles: true, cancelable: true, view: window}));
+                if (img.parentElement) {
+                    img.parentElement.dispatchEvent(new MouseEvent(evType, {bubbles: true, cancelable: true, view: window}));
+                }
+            }
+        }
+        return imgs.length;
+    })()"""
     extract_code = """(() => {
         const entries = performance.getEntriesByType('resource')
             .map(r => r.name)
             .filter(n => n.includes('flow-content.google/video/'));
-        return Array.from(new Set(entries));
+        const domVids = Array.from(document.querySelectorAll('video, video source'))
+            .map(el => el.src || el.currentSrc || '')
+            .filter(u => u.includes('flow-content.google/video/'));
+        return Array.from(new Set([...domVids, ...entries]));
     })()"""
 
     for t in flow_tabs:
         client.attach_tab(t["tabId"])
+        thumb_count = client.evaluate(unlock_code) or 0
+        if thumb_count:
+            time.sleep(2.0)
         urls = client.evaluate(extract_code) or []
         for u in urls:
             if u not in cdn_urls:
@@ -578,9 +599,9 @@ def cmd_harvest(client: WebBridgeClient, args: argparse.Namespace) -> Dict[str, 
         except Exception as e:
             sys.stderr.write(f"Warning: could not download {url}: {e}\n")
 
-    # 2. Check downloads folder for any Flow clips
-    downloads_dir = os.path.join(os.environ.get("USERPROFILE", r"~"), "Downloads")
-    if os.path.exists(downloads_dir):
+    # 2. Check downloads folder for any Flow clips only when no live CDN URLs were found
+    downloads_dir = os.path.join(os.environ.get("USERPROFILE", r"C:\Users\Aria"), "Downloads")
+    if not cdn_urls and os.path.exists(downloads_dir):
         recent_mp4s = sorted(glob.glob(os.path.join(downloads_dir, "*.mp4")), key=os.path.getmtime, reverse=True)
         for mp4 in recent_mp4s[:10]:
             basename = os.path.basename(mp4)
@@ -688,7 +709,7 @@ def cmd_index_assets(client: WebBridgeClient, args: argparse.Namespace) -> Dict[
                 "integrity_pass": False
             })
 
-    catalog_path = getattr(args, "catalog", None) or os.path.join(r"./workspace\eden-mazara-commercial\production", "NEW-PICKUPS-CATALOG.json")
+    catalog_path = getattr(args, "catalog", None) or os.path.join(r"D:\AI\HyperFramesVideos\eden-mazara-commercial\production", "NEW-PICKUPS-CATALOG.json")
     if getattr(args, "catalog", None) or not os.path.exists(catalog_path):
         os.makedirs(os.path.dirname(catalog_path), exist_ok=True)
         with open(catalog_path, "w", encoding="utf-8") as f:
